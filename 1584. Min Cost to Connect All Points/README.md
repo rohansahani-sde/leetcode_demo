@@ -37,8 +37,8 @@ All pairs (xi, yi) are distinct.
 
 ---
 ## 🚀 Submission Details
-- **Runtime**: 0 ms
-- **Memory**: 10 MB
+- **Runtime**: N/A
+- **Memory**: N/A
 
 ## 💻 Code
 ```java
