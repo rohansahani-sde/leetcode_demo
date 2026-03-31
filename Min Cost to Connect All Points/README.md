@@ -43,7 +43,7 @@ Notice that there is a unique path between every pair of points.
 - **Memory**: N/A
 
 ## 💻 Code
-```txt
+```java
 class Solution {
     public int minCostConnectPoints(int[][] points) {
         int n = points.length;
