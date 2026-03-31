@@ -24,6 +24,12 @@ class Solution {
         if(oneCount - k ==0) return 0;
         int min= oneCount - k;
         int l=0;
+        for(int i=oneCount; i<n+n; i++){
+            if(nums1[l++] ==1 ) k--;
+            if(nums1[i] == 1) k++;
+            min = Math.min(min, oneCount - k);
+        }
+        return min;
 
 ```
         
